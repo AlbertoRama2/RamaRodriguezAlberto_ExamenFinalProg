@@ -190,34 +190,41 @@ public class Principal {
 		textHoraEntrada.setBounds(129, 195, 115, 32);
 		frame.getContentPane().add(textHoraEntrada);
 		textHoraEntrada.setColumns(10);
+		textHoraEntrada.setVisible(false);
 			
 		textHoraSalida.setBounds(129, 255, 115, 32);
 		frame.getContentPane().add(textHoraSalida);
 		textHoraSalida.setColumns(10);
+		textHoraSalida.setVisible(false);
 		
 		lblTotalAPagar.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTotalAPagar.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblTotalAPagar.setBounds(405, 145, 125, 50);
 		frame.getContentPane().add(lblTotalAPagar);
+		lblTotalAPagar.setVisible(false);
 			
 		lblPagar.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblPagar.setHorizontalAlignment(SwingConstants.CENTER);
 		lblPagar.setBounds(436, 196, 62, 25);
 		frame.getContentPane().add(lblPagar);
+		lblPagar.setVisible(false);
 		
 		textImporte.setBounds(396, 255, 118, 32);
 		frame.getContentPane().add(textImporte);
 		textImporte.setColumns(10);
+		textImporte.setVisible(false);
 				
 		lblCambio.setHorizontalAlignment(SwingConstants.CENTER);
 		lblCambio.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblCambio.setBounds(405, 298, 125, 40);
 		frame.getContentPane().add(lblCambio);
+		lblCambio.setVisible(false);
 				
 		labelCambio.setHorizontalAlignment(SwingConstants.CENTER);
 		labelCambio.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		labelCambio.setBounds(436, 344, 62, 25);
 		frame.getContentPane().add(labelCambio);
+		labelCambio.setVisible(false);
 		
 		btnPagarYSalir.setFont(new Font("Tahoma", Font.PLAIN, 19));
 		btnPagarYSalir.setBounds(29, 324, 245, 55);
